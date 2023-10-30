@@ -1,10 +1,9 @@
 "use server";
 
-import React from "react";
 import { Resend } from "resend";
 
 
-const resend = new Resend("re_dJTK5CpX_Nm493JPgoXNW7PsBuoP7iP9H");
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
