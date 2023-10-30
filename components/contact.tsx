@@ -44,7 +44,7 @@ export default function Contact() {
         />
         <textarea
           name="message"
-          className="h-52 my-3 rounded-lg p-4"
+          className="h-52 my-3 rounded-lg p-3"
           placeholder="your message"
         />
         <button
