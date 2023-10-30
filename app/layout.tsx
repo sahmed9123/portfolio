@@ -4,6 +4,7 @@ import Header from "@/components/header";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
 import { Toaster } from "react-hot-toast";
+import SectionDivider from "@/components/section-divider";
 
 const play = Play({
   subsets: ["latin"],

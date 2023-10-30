@@ -55,7 +55,7 @@ export const experiencesData = [
     title: "Website Developer",
     company:"University of Maryland Department of Resident Life",
     location: "College Park, MD",
-    description:"My first programming job! I worked on maintaining the content for my school's Resident Life websites starting from straight HTML and CSS, to pioneering the use of tools like Bootstrap, React, AWS EC2, Google Analytics, and Drupal in my team as I gained experience",
+    description:"My first programming job! I worked on maintaining the content for my school's Resident Life websites starting from straight HTML and CSS, to pioneering the use of tools like Bootstrap, React, AWS EC2, Google Analytics, and Drupal in my team",
     icon: React.createElement(BsCodeSlash),
     date: "2020 - 2022",
   },
