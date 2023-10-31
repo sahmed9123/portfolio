@@ -8,6 +8,7 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import { HiOutlineMail } from "react-icons/hi";
 
 export default function intro() {
   return (
@@ -83,6 +84,14 @@ export default function intro() {
           target="_blank"
         >
           <FaGithubSquare />
+        </a>
+
+        <a
+          className="bg-white/20 p-4 text-white flex items-center gap-2 rounded-lg focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
+          href="mailto:saima.ahmed.2528@gmail.com"
+          target="_blank"
+        >
+          <HiOutlineMail />
         </a>
       </motion.div>
     </section>
